@@ -4,19 +4,14 @@ import os
 VERBOSE = False
 
 
-
 def log(message):
 
     if VERBOSE:
         print(message)
 
-
-
 def info(message):
 
     print(message)
-
-
 
 def debug(message):
 
@@ -26,16 +21,12 @@ def debug(message):
             message
         )
 
-
-
 def success(message):
 
     print(
         "[OK]",
         message
     )
-
-
 
 def error(message):
 
