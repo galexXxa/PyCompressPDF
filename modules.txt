@@ -1,0 +1,13 @@
+# Python dependencies (install with: pip install -r modules.txt)
+colorama==0.4.6
+et_xmlfile==2.0.0
+lxml==6.1.1
+openpyxl==3.1.5
+packaging==26.2
+pikepdf==10.10.0
+pillow==12.3.0
+pymupdf==1.28.0
+tqdm==4.68.4
+
+# External dependency: install Ghostscript separately and make gswin64c
+# available in PATH for IMAGE_HEAVY and SCANNED_DOCUMENT PDFs.

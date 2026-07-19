@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+.agents/
+
+# Temporary Files
+temp/*
+!temp/.gitkeep
+
+# I/O Files
+input/*
+!input/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# Generated Reports
+report/*
+!report/.gitkeep
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup Files
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Secrets (kalau nanti ada)
+.env
+.env.*
