@@ -1,8 +1,6 @@
 import os
 
-
 VERBOSE = False
-
 
 def log(message):
 
